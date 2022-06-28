@@ -1,0 +1,59 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: var(--body-bg-color);
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.avatar{
+    border: 7px double var(--purple);
+    border-radius: 100%;
+    margin-bottom: 16px;
+}
+
+.instagram{
+    color: var(--purple);
+    margin-bottom: 32px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 16px;
+}
+
+.links a {
+    border: 2px solid var(--purple);
+    color: var(--purple);
+    width: 326px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 0;
+    border-radius: 4px;
+}
+
+.buttons{
+    display: flex;
+    flex-flow: row;
+    margin-top: 50px;
+    gap: 29px;
+}
